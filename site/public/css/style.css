@@ -9,6 +9,12 @@
     font-family: var(--main-font-full);
 }
 
+
+section {
+    background-color: var(--main-background);
+}
+
+
 #home {
     width: 100vw;
     height: 100vh;
@@ -66,3 +72,28 @@ nav ul li a{
     height:32px;
     background-color: black;
 }
+
+
+.caixa-h1 {
+    display: flex;
+    justify-content: center;
+    color: var(--main-branco);
+    padding-top: 15vh;
+}
+
+.caixa-h1 h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.caixa-h1 p {
+    color: rgba(255,255,255, 0.7);
+    text-align: center;
+}
+
+.button-group {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
