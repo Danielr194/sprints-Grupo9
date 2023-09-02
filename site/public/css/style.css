@@ -97,3 +97,11 @@ nav ul li a{
     justify-content: center;
 }
 
+.caixa-proposito {
+    color: var(--main-branco);
+    padding: 3vh;
+}
+
+.caixa-proposito span {
+    color: var(--main-vermelho-primario);
+}
